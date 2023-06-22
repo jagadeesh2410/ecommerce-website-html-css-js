@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>contact</title>
+          <link rel="stylesheet" href="D:\web\style.css">
+    </head>
+    <body>
+     
+        <div class="navbar">
+            <ul>
+              <li class="logo">My Store</li>
+                  <li class="navbar-toggle"><button>|||</button></li>
+                  <li class="nav-links"><a href="D:\web\Index.html">Home</a></li>
+                  <li class="nav-links"><a href="D:\web\about.html">About</a></li>
+                  <li class="nav-links"><a href="D:\web\product.html">product</a></li>
+                  <li class="nav-links"><a href="D:\web\contact.html">contact</a></li>
+      
+            </ul>
+          
+        </div>   
+        
+         <!------------------------>
+        <div class="contact">
+           <div class="form-container">
+             <div class="box">
+              <p>contact us </p>
+                <input type="text" placeholder="name"requied id="inp"><br>
+                <input type="email" placeholder=" email" required id="inp"><br>
+                <input type="text" placeholder="phone"requied id="inp"><br>
+                <textarea rows="3" placeholder="comment something" ></textarea><br>
+                <input type="submit" value="submit" id="s-btn"> 
+              </div>
+            </div>
+        </div>
+<div class="contact-us">
+ <ul>
+  <li>contact: 9545445454</li>
+  <li>email: abc@gail.com</li>
+  <li> address:
+    123,abc nagar,sample address</li>
+ </ul> 
+  
+ 
+</div>
+        <div class="copyright">
+          <p>Developed and maintained bu Jagadeesh</p>
+        </div>
+     
+        <script>
+            
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+          
+      
+
+          const toggleButton=document.getElementsByClassName('navbar-toggle')[0];
+          const navbarLinks=document.getElementsByClassName('nav-links');
+          toggleButton.addEventListener('click',function(){
+            for(var i=0;i<navbarLinks.length;i++){
+               navbarLinks[i].classList.toggle('active');
+          }
+      });
+      </script>
+      
+    </body>
+</html>

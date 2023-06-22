@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8">
+    <title>Ecommerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+    <body>
+        <div class="navbar">
+            <ul>
+              <li class="logo">My Store</li>
+              
+                  <li class="navbar-toggle"><button>|||</button></li>
+                  
+                  <li class="nav-links"><a href="D:\web\Index.html">Home</a></li>
+                  <li class="nav-links"><a href="D:\web\about.html">About</a></li>
+                  <li class="nav-links"><a href="D:\web\product.html">product</a></li>
+                  <li class="nav-links"><a href="D:\web\contact.html">contact</a></li>
+      
+            </ul>
+          
+          </div>   
+
+        </div>
+
+
+        <div class="header">
+            
+
+            <div class="row">
+                <div class="col-2">
+                    <p>Exclusive products</p>
+                    <div class="image-slide"></div>
+                </div>
+                <div class="col-2">
+                    <h1> Shopping world</h1>
+                    <p class="p1-head">A place where you get the best Deals<br>you'll have a greate Selection with allthe letest trends just click away! </p>
+                    <a href="D:\web\product.html" class="btn-explore" onclick="Explore()">Explore now  &#8594;</a>
+    
+                </div>
+                
+            </div>
+           
+           
+        </div>
+
+
+
+
+
+
+        <!-------------testimonial----------------------------------------------------------------------------------->
+
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.lorem Ipsum has been the industry's
+                            standasrd dummy text ever
+                        </p>
+                        <img src="D:\web\user-1.png" >
+                        <h3>Sean Parker</h3>
+
+                    </div>
+                    <div class="col-3">
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.lorem Ipsum has been the industry's
+                            standasrd dummy text ever
+                        </p>
+                        <img src="D:\web\user-2.png" >
+                        <h3>Sean Parker</h3>
+                        
+                    </div>
+                    <div class="col-3">
+                        <p>Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry.lorem Ipsum has been the industry's
+                            standasrd dummy text ever
+                        </p>
+                        <img src="D:\web\user-3.png" >
+                        <h3>Sean Parker</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- -----------------brand------------------------ -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="D:\web\logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="D:\web\logo-coca-cola.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="D:\web\logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="D:\web\logo-philips.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="D:\web\logo-white.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------fotter------------------->
+        <div class="contact-us">
+            <ul>
+             <li>contact: 9545445454</li>
+             <li>email: abc@gail.com</li>
+             <li> address:
+               123,abc nagar,sample address</li>
+            </ul> 
+             
+            
+           </div>
+       
+        <div class="copyright">
+        <p>Developed and maintained bu Jagadeesh</p>
+       </div>
+        <!--------------------------------toggle------------------>
+
+        <script>
+            
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+            
+        
+
+            const toggleButton=document.getElementsByClassName('navbar-toggle')[0];
+            const navbarLinks=document.getElementsByClassName('nav-links');
+            toggleButton.addEventListener('click',function(){
+              for(var i=0;i<navbarLinks.length;i++){
+                 navbarLinks[i].classList.toggle('active');
+            }
+        });
+        </script>
+        
+        
+    </body>
+</html>
